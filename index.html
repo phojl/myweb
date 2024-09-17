@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>破刀的个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#portfolio">作品展示</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <button id="lang-switch">EN/中文</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="carousel">
+                <img src="images/lunbo1.jpg" alt="照片1" class="active">
+                <img src="images/lunbo2.jpg" alt="照片2">
+                <img src="images/lunbo3.jpg" alt="照片3">
+            </div>
+            <div class="hero-text">
+                <h1>你好，我是破��</h1>
+                <p>一名摄影师/设计师/开发者</p>
+                <a href="#about" class="btn">了解更多</a>
+            </div>
+        </section>
+
+        <section id="about" class="fade-in">
+            <div class="about-image">
+                <img src="images/profile-photo.jpg" alt="个人照片">
+            </div>
+            <div class="about-text">
+                <h2>关于我</h2>
+                <p>这里是您的个人简介，描述您的背景、专业技能和兴趣等。</p>
+            </div>
+        </section>
+
+        <section id="ai-chat" class="fade-in">
+            <h2>AI 对话</h2>
+            <div id="chat-container">
+                <div id="chat-messages"></div>
+                <div id="chat-input-container">
+                    <input type="text" id="chat-input" placeholder="输入您的消息...">
+                    <button id="send-button"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 其他部分（如作品展示、联系方式等）可以按需添加 -->
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" target="_blank"><img src="images/wechat-icon.png" alt="微信"></a>
+            <a href="#" target="_blank"><img src="images/bilibili-icon.png" alt="哔哩哔哩"></a>
+            <a href="#" target="_blank"><img src="images/douyin-icon.png" alt="抖音"></a>
+        </div>
+        <p>&copy; 2024 破刀. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
